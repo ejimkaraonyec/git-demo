@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice curves</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Josefin sans', sans-serif;
+            color: hsl(218, 73%, 93%);
+            background-color: hsl(216, 78%, 7%);
+            line-height: 22px;
+        }
+
+        section {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+
+        .coloreines {
+            background-color: #29264D;
+        }
+
+        .colorzwei {
+            background-color: #00546F;
+        }
+
+        .colordrei {
+            background-color: #00A5AD;
+        }
+
+        .colorvier {
+            background-color: hsl(10, 94%, 41%);
+        }
+
+        .curve {
+            position: absolute;
+            height: 225px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .curve::before {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: hsl(216, 78%, 7%);
+            transform: translate(85%, 60%);
+        }
+
+        .curve::after {
+            content: '';
+            display: block;
+            position: absolute;
+            border-radius: 100% 50%;
+            width: 55%;
+            height: 100%;
+            background-color: #29264D;
+            transform: translate(-4%, 40%);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="coloreines">
+        <h1>Bodacious Curves</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem architecto facilis, tenetur, suscipit earum
+            sint dolores odit fugit nobis consectetur voluptas temporibus cumque dignissimos consequuntur repudiandae
+            voluptatem recusandae. Excepturi, fugit.</p>
+        <div class="curve"></div>
+    </section>
+    <section>
+        <h1>Bodacious Curves</h1>
+        <p>Illo consectetur accusantium ullam quis? Sint ad rerum, rem nemo voluptates blanditiis vel asperiores maiores
+            consectetur exercitationem magni suscipit iure nisi beatae magnam? Consequuntur recusandae impedit, omnis
+            libero magni rem.</p>
+    </section>
+    <section class="colorzwei">
+        <h1>Bodacious Curves</h1>
+        <p>Ab veritatis ipsa aspernatur aliquam maxime voluptates et laborum, porro quisquam ratione? Corrupti quis
+            vitae porro eum. Incidunt doloremque voluptatem dolor harum cumque alias dolorem cupiditate optio!
+            Voluptatibus, laboriosam dolorem!</p>
+    </section>
+    <section>
+        <h1>Bodacious Curves</h1>
+        <p>Eligendi amet dolorem, vel aliquam accusamus qui doloremque excepturi autem deleniti illum quam vero numquam
+            atque delectus error pariatur nostrum commodi ad, nisi hic. Earum aspernatur voluptates numquam quasi
+            excepturi?</p>
+    </section>
+    <section class="colordrei">
+        <h1>Bodacious Curves</h1>
+        <p>Unde non exercitationem impedit sit, esse ipsam, placeat vero nisi corporis aliquid possimus saepe enim vel
+            commodi sapiente a illum hic natus aspernatur inventore dolores! Excepturi vel doloribus aut harum?</p>
+    </section>
+    <section>
+        <h1>Bodacious Curves</h1>
+        <p>Sint perferendis nihil doloremque voluptas pariatur fuga accusamus temporibus aperiam, consequuntur ipsam
+            voluptates nam nobis tenetur voluptate, fugiat obcaecati laborum repellendus ea nesciunt dolorem ut odit aut
+            porro. Officiis, quibusdam!</p>
+    </section>
+    <section class="colorvier">
+        <h1>Bodacious Curves</h1>
+        <p>Molestiae explicabo perferendis totam suscipit consectetur commodi esse, vitae ex alias neque inventore
+            expedita deleniti perspiciatis, optio eligendi nobis exercitationem dolorum quibusdam quam. Beatae, laborum
+            suscipit. Ipsam voluptatem unde laborum?</p>
+    </section>
+    <section>
+        <h1>Bodacious Curves</h1>
+        <p>Optio ad ducimus quas odio non praesentium et. Debitis, aliquid! Est ratione aliquam odio quis quidem, natus
+            libero ut vero! Libero dicta obcaecati facere. Qui laborum expedita officia repellendus eum.</p>
+    </section>
+</body>
+
+</html>
